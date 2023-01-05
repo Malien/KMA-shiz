@@ -1,0 +1,21 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:iron_backpack",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": [
+    "PWP",
+    "IBI",
+    "PWP"
+  ],
+  "key": {
+    "I": { "tag": "forge:ingots/invar" },
+    "W": { "tag": "forge:ingots/ironwood" },
+    "P": { "tag": "forge:plates/iron" },
+    "B": { "item": "sophisticatedbackpacks:backpack" }
+  },
+  "result": { "item": "sophisticatedbackpacks:iron_backpack" }
+}

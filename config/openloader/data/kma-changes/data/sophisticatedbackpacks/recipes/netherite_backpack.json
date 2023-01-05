@@ -1,0 +1,21 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:netherite_backpack",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": [
+    "PGP",
+    "NBN",
+    "PGP"
+  ],
+  "key": {
+    "P": { "item": "ae2:fluix_pearl" },
+    "G": { "item": "botania:gaia_ingot" },
+    "N": { "tag": "forge:ingots/netherite" },
+    "B": { "item": "sophisticatedbackpacks:diamond_backpack" }
+  },
+  "result": { "item": "sophisticatedbackpacks:netherite_backpack" }
+}

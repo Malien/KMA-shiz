@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:upgrade_base",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": [
+    "FEF",
+    "ELE",
+    "FEF"
+  ],
+  "key": {
+    "L": { "tag": "forge:leather" },
+    "E": { "tag": "forge:ingots/electrum" },
+    "F": { "item": "thermal:hazmat_fabric" }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:upgrade_base"
+  }
+}

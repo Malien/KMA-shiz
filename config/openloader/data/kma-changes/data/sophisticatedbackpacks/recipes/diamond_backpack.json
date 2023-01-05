@@ -1,0 +1,22 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:diamond_backpack",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": [
+    "dFd",
+    "FBF",
+    "EDE"
+  ],
+  "key": {
+    "d": { "tag": "forge:gems/diamond" },
+    "D": { "tag": "forge:gems/dragonstone" },
+    "F": { "item": "thermal:diving_fabric" },
+    "E": { "tag": "forge:ingots/enderium" },
+    "B": { "item": "sophisticatedbackpacks:gold_backpack" }
+  },
+  "result": { "item": "sophisticatedbackpacks:diamond_backpack" }
+}

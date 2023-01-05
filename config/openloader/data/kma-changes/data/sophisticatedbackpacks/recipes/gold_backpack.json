@@ -1,0 +1,21 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "itemRegistryName": "sophisticatedbackpacks:gold_backpack",
+      "type": "sophisticatedcore:item_enabled"
+    }
+  ],
+  "pattern": [
+    "GNG",
+    "QBQ",
+    "GNG"
+  ],
+  "key": {
+    "G": { "tag": "forge:ingots/rose_gold" },
+    "Q": { "tag": "create:polished_rose_quartz" },
+    "N": { "item": "twilightforest:naga_scale" },
+    "B": { "item": "sophisticatedbackpacks:iron_backpack" }
+  },
+  "result": { "item": "sophisticatedbackpacks:gold_backpack" }
+}
